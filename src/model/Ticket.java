@@ -41,11 +41,11 @@ public class Ticket extends BaseModel{
         this.operator = operator;
     }
 
-    public ParkingSpot getParkingSlot() {
+    public ParkingSpot getParkingSpot() {
         return parkingSpot;
     }
 
-    public void setParkingSlot(ParkingSpot parkingSpot) {
+    public void setParkingSpot(ParkingSpot parkingSpot) {
         this.parkingSpot = parkingSpot;
     }
 }
